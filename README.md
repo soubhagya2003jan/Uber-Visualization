@@ -63,9 +63,6 @@ python app.py
 <h2>🧩 How It Works</h2>
 <p>
   The app ingests Uber ride data, preprocesses it with Pandas, then visualizes trips on a map using Kepler.gl with overlays for hotspots and ride density. Additional charts provide time-based trends. Dash handles user inputs and dynamic updates.
-  
-![image](https://github.com/user-attachments/assets/4f4fb4cb-c68b-4b3b-b02f-64be722f032e)
-  
 </p>
 
 <h2>🤝 Contribution</h2>
