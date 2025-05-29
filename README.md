@@ -17,7 +17,7 @@
 
 <h2>🔍 Overview</h2>
 <p>
-  This project provides an interactive dashboard visualizing Uber ride data with geospatial analysis and temporal trends. Built using <strong>Dash</strong> for web app framework, <strong>Plotly</strong> for powerful plotting, and <strong>Kepler.gl</strong> for advanced mapping.
+  This project provides an interactive dashboard visualizing Uber ride data with geospatial analysis. Built using <strong>Dash</strong> for web app framework, <strong>Plotly</strong> for powerful plotting, and <strong>Kepler.gl</strong> for advanced mapping.
 </p>
 
 <h2>🚀 Features</h2>
@@ -53,16 +53,12 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run the app
-python app.py
+python input.py
 </pre>
 
 <h2>📈 Screenshots</h2>
-<p align="center">
-  <img src="docs/screenshots/dashboard1.png" alt="Dashboard Screenshot 1" width="80%" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);" />
-</p>
-<p align="center">
-  <img src="docs/screenshots/dashboard2.png" alt="Dashboard Screenshot 2" width="80%" style="border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);" />
-</p>
+
+![image](https://github.com/user-attachments/assets/d5c9d88e-978b-4dce-ac66-4e143e709b35)
 
 <h2>🧩 How It Works</h2>
 <p>
@@ -72,8 +68,15 @@ python app.py
 <h2>🤝 Contribution</h2>
 <p>Feel free to fork, open issues, or submit pull requests to improve this project.</p>
 
+<h2>👨‍💻 Author</h2>
+<p>
+  <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">Soubhagya Swain</a>
+</p>
+
 <h2>📜 License</h2>
-<p>MIT License © 2025 <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">Your Name</a></p>
+<p>
+  This project is licensed under the MIT License. See the <a href="LICENSE" target="_blank" rel="noopener noreferrer">LICENSE</a> file for details.
+</p>
 
 ---
 
