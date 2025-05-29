@@ -1,0 +1,139 @@
+.hero-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #111;
+    color: #fff;
+    border-radius: 0; /* no rounded corners */
+    border: none;     /* remove border to avoid floaty look */
+    font-family: 'Uber Move', system-ui, sans-serif;
+    position: fixed;  /* stick it to the top */
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;    /* stay on top */
+}
+
+
+.hero-left {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px; /* Space between Uber and metrics */
+}
+
+.hero-title {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.hero-metrics {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.hero-metrics > div {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.metric-label {
+    font-size: 12px;
+    color: #aaa;
+}
+
+.metric-value {
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    font-size: medium;
+}
+
+.hero-right a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+.hero-right a:hover {
+    color: #a99999;
+}
+
+/* Main layout */
+.main-content {
+    padding-top: 70px;
+    display: flex;
+    flex-direction: row;
+    height: calc(100vh - 80px); 
+}
+
+.left-panel {
+    flex: 2;
+    background: #ffffff;
+    padding: 15px;
+}
+
+.kepler-map{
+    width: 100%;           
+    height: 820px;
+    border: 2px solid #444;
+    border-radius: 12px;
+}
+
+.right-panel {
+    flex: 1.5;
+    background: #ffffff;
+    padding: 20px;
+}
+
+.right-title{
+    font-size: 30px;
+    font-family: 'Uber Move', system-ui, sans-serif;
+}
+
+.right-graph{
+    font-family: 'Uber Move', system-ui, sans-serif;
+}
+
+.right-section-title{
+    font-family: 'Uber Move', system-ui, sans-serif;
+    font-size: 30px;
+}
+
+.prediction-box {
+    padding: 20px;
+    background-color: d9d9d9;
+    border-radius: 15px;
+    border: 2px solid #111;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 120px;
+    height: 241px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-top: 10px;
+}
+
+.trip-metric {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 5px;
+    font-family: 'Uber Move', sans-serif;
+}
+
+.trip-value {
+    font-size: 32px;
+    font-weight: bold;
+    color: #000;
+    font-family: 'Uber Move', sans-serif;
+}
