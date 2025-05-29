@@ -53,7 +53,7 @@ source venv/bin/activate  # On Windows use: venv\Scripts\activate
 pip install -r requirements.txt
 
 # Run the app
-python input.py
+python app.py
 </pre>
 
 <h2>📈 Screenshots</h2>
