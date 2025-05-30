@@ -22,9 +22,8 @@
 
 <h2>🚀 Features</h2>
 <ul>
-  <li>Dynamic map visualization of Uber trips with heatmaps and cluster layers.</li>
+  <li>Dynamic map visualization of Uber trips.</li>
   <li>Time-series charts showing ride trends over days, weeks, and months.</li>
-  <li>Filter options for locations, time of day, and ride types.</li>
   <li>Responsive layout optimized for desktop and mobile.</li>
   <li>Clean, interactive UI powered by Dash callbacks.</li>
 </ul>
