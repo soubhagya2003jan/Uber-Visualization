@@ -73,10 +73,6 @@ python app.py
   <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">Soubhagya Swain</a>
 </p>
 
-<h2>📜 License</h2>
-<p>
-  This project is licensed under the MIT License. See the <a href="LICENSE" target="_blank" rel="noopener noreferrer">LICENSE</a> file for details.
-</p>
 
 ---
 
