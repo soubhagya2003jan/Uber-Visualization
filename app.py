@@ -4,14 +4,7 @@ import plotly.express as px
 import os
 
 #Reading The Data
-local_path = "train.csv"
-url = "https://uber-train-csv-bucket.s3.us-east-1.amazonaws.com/train.csv"
-
-if not os.path.exists(local_path):
-    df = pd.read_csv(url)
-    df.to_csv(local_path, index=False)
-else:
-    df = pd.read_csv(local_path)
+df = pd.read_csv('Nyc_Taxi_Trip//train.csv')
 
 #Reading Total Rides
 Total_Rides = len(df)
